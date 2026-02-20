@@ -95,32 +95,8 @@ React Dashboard
 
 # 🧪 Example Output Structure
 
-json
-{
-  "analysis_id": "PGX-2026-0001",
-  "timestamp": "2026-02-20T14:32:10Z",
-  "patient": {
-    "patient_id": "PT-458921",
-    "sex": "Male",
-    "vcf_file": "patient_sample.vcf",
-    "genome_build": "GRCh38",
-    "ethnicity": "Unknown",
-    "sample_source": "Blood"
-  },
-  "drug_analysis": {
-    "drug_name": "Warfarin",
-    "drug_class": "Anticoagulant",
-    "target_genes": ["CYP2C9", "VKORC1"],
-    "cpic_guideline_available": true
-  },
-  "risk_assessment": {
-    "risk_level": "high",
-    "risk_label": "High Risk – Increased Bleeding",
-    "confidence_score": 94,
-    "metabolism_status": "Reduced Metabolism",
-    "clinical_severity": "Severe"
-  }
-}
+
+<img width="521" height="531" alt="Screenshot 1947-12-01 at 7 41 56 AM" src="https://github.com/user-attachments/assets/f5c8c448-cedf-4d11-94bc-c5f2844763d7" />
 
 
 ---
@@ -216,6 +192,9 @@ http://localhost:5173
 | Critical | Avoid drug / alternative required |
 
 ---
+
+Live Demo link is:
+https://pharma-guard-ai-lake.vercel.app
 
 # 🏆 Hackathon Impact
 
