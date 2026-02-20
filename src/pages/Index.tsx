@@ -48,8 +48,8 @@ const Index = () => {
               className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-primary-foreground leading-[1.1] animate-fade-up"
               style={{ animationDelay: "0.1s" }}
             >
-              PharmaGuard{" "}
-              <span className="bg-clip-text text-transparent gradient-glow">AI</span>
+              PharmaGuard AI{" "}
+             
             </h1>
             <p
               className="text-lg md:text-xl text-primary-foreground/60 max-w-2xl mx-auto leading-relaxed animate-fade-up"
