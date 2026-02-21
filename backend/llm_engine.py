@@ -9,7 +9,7 @@ load_dotenv()
 
 # configure
 logger = logging.getLogger(__name__)
-api_key = os.getenv("GROQ_API_KEY", "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")
+api_key = os.getenv("GROQ_API_KEY","YOUR_GROQ_API")
 client = Groq(api_key=api_key)
 
 
@@ -86,4 +86,5 @@ Return only valid JSON or a JSON block inside text.
             "mechanism": "",
             "clinical_impact": "",
             "recommendation": ""
+
         }
